@@ -14,9 +14,6 @@ server.use(cors()); // make my server opened for any client
 
 const PORT = process.env.PORT; //take the port from .env file
 
-
-
-
 // http://localhost:3010/
 server.get('/',(req,res)=>{
     res.send('Hello from the home route')
